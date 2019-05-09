@@ -1,0 +1,67 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+     background: lightgray;
+    
+}
+h1{
+    padding-left: 10px;
+}
+form{
+    width: 100%;
+    height: 150px;
+    background: lightgray;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.numb{
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 38px;
+    border-bottom: 2px solid black;
+    margin: 0 25px; 
+}
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+.result{
+    width: 100%;
+    min-height: 50px;
+    color: white;
+    background: lightgray;
+    position: relative;
+}
+.primeBtn{
+    background: transparent;
+    border: none;
+}
+p{
+    text-align: center;
+}
+.clear{
+    position: absolute;
+    top: 5px;
+    right: 1%;
+    height: 18px;
+    width: 18px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 0;
+}
+.clear:hover{
+    color:orangered;
+}
